@@ -1,0 +1,212 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"Command Radio Menu by LibTiff"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"go"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Go"
+					"cmd"	"go"
+				}
+				
+				"fallback"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Fall_Back"
+					"cmd"	"fallback"
+				}
+				
+				//"sticktog"
+				//{
+				//	"hotkey"	"3"
+				//	"label"	"#SFUI_Radio_Stick_Together"
+				//	"cmd"	"sticktog"
+				//}
+				
+				"holdpos"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Hold_Pos"
+					"cmd"	"holdpos"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"4"
+					"label"	"Follow Me                                                                         ------------- www.libtiff.eu.pn -------------"
+					"cmd"	"followme"
+				}
+					
+				"fixdotcrosshair" // something you can remember
+				{
+					// position in the menu and hotkey to use
+					"hotkey"   "5"
+					// the name of the entry in the menu
+					"label" "[Fixed]Dot-Style CrossHair" 
+  				 	// command to execute
+					"cmd"  "cl_crosshairdot 1; cl_crosshairgap 0; cl_crosshairsize 0; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 2; cl_crosshair_drawoutline 0"	
+				}
+				
+				"fixcrosscrosshair" // something you can remember
+				{
+					// position in the menu and hotkey to use
+					"hotkey"   "6"
+					// the name of the entry in the menu
+					"label" "[Fixed]Cross-Style CrossHair" 
+  				 	// command to execute
+					"cmd"  "cl_crosshairdot 1; cl_crosshairgap -5; cl_crosshairsize 5; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 0;"	
+				}
+				
+				"fixcircle" // something you can remember
+				{
+					// position in the menu and hotkey to use
+					"hotkey"   "7"
+					// the name of the entry in the menu
+					"label" "[Fixed]Circle-Style CrossHair" 
+  				 	// command to execute
+					"cmd"  "cl_crosshairdot 0; cl_crosshairgap -3; cl_crosshairsize 1; cl_crosshairstyle 4; cl_crosshairusealpha 1; cl_crosshairthickness 5; cl_fixedcrosshairgap -4; cl_crosshair_outline 0;"	
+				}
+				
+				"dyncrosscrosshair" // something you can remember
+				{
+					// position in the menu and hotkey to use
+					"hotkey"   "8"
+					// the name of the entry in the menu
+					"label" "[Dynamic]Cross-Style CrossHair" 
+  				 	// command to execute
+					"cmd"  "cl_crosshairdot 1; cl_crosshairgap -5; cl_crosshairsize 5; cl_crosshairstyle 2; cl_crosshairusealpha 1; cl_crosshairthickness 0;"	
+				}
+				
+				"dyncircle" // something you can remember
+				{
+					// position in the menu and hotkey to use
+					"hotkey"   "9"
+					// the name of the entry in the menu
+					"label" "[Dynamic]Circle-Style CrossHair" 
+  				 	// command to execute
+					"cmd"  "cl_crosshairdot 0; cl_crosshairgap -4; cl_crosshairsize 1; cl_crosshairstyle 2; cl_crosshairusealpha 1; cl_crosshairthickness 5; cl_fixedcrosshairgap 1; cl_crosshair_outline 0;"	
+				}
+				
+				
+
+
+
+
+cl_crosshairdot "0"
+cl_crosshairgap "1"
+cl_crosshairsize "1"
+cl_crosshairstyle "2"
+cl_crosshairusealpha "1"
+cl_crosshairthickness "5"
+cl_fixedcrosshairgap "1"
+cl_crosshair_outline "0"
+cl_crosshair_outline_draw "0"
+
+				
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"#SFUI_StandardRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+				
+				"cheer"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Cheer"
+					"cmd"	"cheer"
+				}
+				
+				"compliment"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Compliment"
+					"cmd"	"compliment"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_Thanks"
+					"cmd"	"thanks"
+				}
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"#SFUI_ReportRadio"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Spotted"
+					"cmd"	"enemyspot"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Need_Backup"
+					"cmd"	"needbackup"
+				}
+				
+				"takepoint"
+				{
+					"hotkey"	"3"
+					"label"	"#SFUI_Radio_Take_Point"
+					"cmd"	"takepoint"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"4"
+					"label"	"#SFUI_Radio_Sector_Clear"
+					"cmd"	"sectorclear"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"5"
+					"label"	"#SFUI_Radio_In_Position"
+					"cmd"	"inposition"
+				}			
+			}
+		}
+		
+	}
+}
