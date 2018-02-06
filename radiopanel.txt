@@ -45,7 +45,7 @@
 				"followme"
 				{
 					"hotkey"	"4"
-					"label"	"Follow Me                                                                         ------------- www.libtiff.eu.pn -------------"
+					"label"	"Follow Me                                                                         ------------- libtiff.eu5.net -------------"
 					"cmd"	"followme"
 				}
 					
